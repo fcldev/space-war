@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>space war</title>
+    <style>
+        body{
+            margin: 0;
+            overflow: hidden;
+        }
+        .replay{
+            border-radius: 15%;
+            background-color: red;
+            color: white;
+            width: 200px;
+            height: 50px;
+            position: absolute;
+            left: 42%;
+            top: 60%;
+        }
+    </style>
+</head>
+<body>
+    <p style="position: fixed; top: 10px;left: 10px;margin: 0; font-size: 14px; font-family: sans-serif; z-index: 10;color: red; font-weight: bolder;">
+        <span>Scor:</span> <span id="scoreElement">0</span>
+    </p>
+    <canvas id="canvas"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>
